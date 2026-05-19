@@ -15,7 +15,26 @@ h1 {
 p {
     color: #1e2c3c;
     font-family: 'Georgia', serif;
+    font-size: larger;
+    margin-top: 20px;
+    justify-content: flex-start;
+}
+
+ul {
+    color: #1e2c3c;
+    font-family: 'Georgia', serif;
     font-size: medium;
     margin-top: 20px;
     justify-content: flex-start;
+}
+
+footer {
+    background-color: #1e2c3c;
+    color: #739cca;
+    font-family: 'Georgia', serif;
+    padding: 10px;
+    text-align: center;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
 }
