@@ -1,6 +1,7 @@
 body {
     background-color: #739cca;
     margin: 0;
+    justify-content: flex-start;
     padding: 0;
 }
 
@@ -8,10 +9,12 @@ h1 {
     color: #1e2c3c;
     font-family: 'Georgia', serif;
     margin-top: 50px;
+    justify-content: flex-start;
 }
 
 p {
     color: #1e2c3c;
     font-family: 'Arial', sans-serif;
     margin-top: 20px;
+    justify-content: flex-start;
 }
