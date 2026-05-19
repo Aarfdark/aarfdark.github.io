@@ -1,11 +1,25 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8" />
+    <!-- <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Aadarsh Natarajan</title>
-    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="styles.css" /> -->
+    <title></title>
+    <script
+        src="https://code.jquery.com/jquery-3.3.1.js"
+        integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+        crossorigin="anonymous">
+    </script>
+    <script> 
+        $(function(){
+            $("#header").load("header.html"); 
+            $("#footer").load("footer.html"); 
+        });
+    </script> 
   </head>
+
+  <div id="header"></div>
 
   <body>
     <h1>Aadarsh Natarajan</h1>
@@ -17,10 +31,12 @@
     <p><a href="resume.html">Resume</a></p>
   </body>
 
-  <footer>
+  <div id="footer"></div>
+
+  <!-- <footer>
     <p><a href="mailto:aadarsh.natarajan@gmail.com">Contact Me</a></p>
     <p><a href="https://www.linkedin.com/in/aadarsh-natarajan">LinkedIn</a></p>
     <p><a href="https://github.com/aarfdark">GitHub</a></p>
     <p><a href="https://aarfdark.itch.io/">Itch.io</a></p>
-  </footer>
+  </footer> -->
 </html>
