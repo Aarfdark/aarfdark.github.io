@@ -29,12 +29,21 @@ ul {
 }
 
 footer {
-    background-color: #1e2c3c;
+    background-color: #9cb8d9;
     color: #739cca;
     font-family: 'Georgia', serif;
-    padding: 10px;
     text-align: center;
     position: fixed;
     width: 100%;
     bottom: 0;
+}
+
+a:link {
+    color: #4482bb;
+    text-decoration: none;
+}
+
+a:visited {
+    color: #17202a;
+    text-decoration: none;
 }
