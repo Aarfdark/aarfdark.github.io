@@ -8,13 +8,14 @@ body {
 h1 {
     color: #1e2c3c;
     font-family: 'Georgia', serif;
-    margin-top: 50px;
+    margin-top: 20px;
     justify-content: flex-start;
 }
 
 p {
     color: #1e2c3c;
     font-family: 'Georgia', serif;
+    font-size: medium;
     margin-top: 20px;
     justify-content: flex-start;
 }
